@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <p class="Title">Ecommerce Cart</p>
+    </div>
+    
+    <div class="container">
+        <div id="root"></div>
+    </div>
+    
+    <button class="open"><div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div></button>
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <h1 class="cart_title">My Cart</h1>
+            <button class="close">X</button>
+            
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            
+            <div class="sidebar">
+                <div id="cartItem">Your cart is empty</div> 
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                    <button class="clear-all">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</html>
